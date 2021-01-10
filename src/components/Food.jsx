@@ -5,6 +5,7 @@ const FoodStyled = styled.div`
   position: absolute;
   background-color: red;
   border: 1px white;
+  border-radius: 5px;
   width: 2%;
   height: 2%;
   left: ${props => props.left};

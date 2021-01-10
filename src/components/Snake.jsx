@@ -4,8 +4,8 @@ const SnakeDot = styled.div`
   position: absolute;
   width: 2%;
   height: 2%;
-  background-color: #ff6a00;
-  border-radius: 15px;
+  background-color: yellow;
+  border-radius: 3px;
   left: ${dot => dot.left};
   top: ${props => props.top};
   z-index: 1;
