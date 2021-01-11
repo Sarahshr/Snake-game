@@ -9,7 +9,6 @@ const Home = ({ alive, setAlive, setScore, score }) => {
   const handleAlive = () => {
     setAlive("play");
     setScore(0);
-    console.log(alive);
   };
 
   return (

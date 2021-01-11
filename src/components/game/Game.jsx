@@ -32,7 +32,6 @@ const Game = ({ setAlive, setScore, score }) => {
   ]);
   const [direction, setDirection] = useState("right");
   const [speed, setSpeed] = useState(200);
-  const [test, setTest] = useState(false);
 
   useEffect(() => {
     document.onkeydown = onKeyDown;
@@ -114,7 +113,6 @@ const Game = ({ setAlive, setScore, score }) => {
       snake.unshift([]);
       setSnakeDots(snake);
       setScore(score => score + 1);
-      setTest(true);
     }
   };
 

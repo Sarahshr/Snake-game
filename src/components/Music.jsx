@@ -24,7 +24,7 @@ const Music = () => {
     <>
       <Player>
         <ReactPlayer
-          url="https://www.youtube.com/watch?v=dm4aY08bf4Q"
+          url="assets/sounds/music-game.mp3"
           playing
           controls
           loop
