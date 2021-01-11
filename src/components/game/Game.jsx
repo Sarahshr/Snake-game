@@ -143,7 +143,7 @@ const Game = ({ setAlive, setScore, score }) => {
     <Container>
       <Left>
         <Score>
-          <Apple src="./assets/images/apple.svg" />
+          <Apple></Apple>
           <Span> x </Span>
           {score}
         </Score>

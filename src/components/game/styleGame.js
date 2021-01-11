@@ -9,7 +9,6 @@ export const Container = styled.div`
 `;
 
 export const Right = styled.div`
-  //border: 1px solid green;
   height: 10rem;
   text-align: center;
   width: 15%;
@@ -22,10 +21,14 @@ export const Score = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-around;
+  width: 100%;
 `;
 
-export const Apple = styled.img`
-  width: 20%;
+export const Apple = styled.div`
+  width: 6%;
+  padding: 5%;
+  border-radius: 25px;
+  background-color: red;
 `;
 
 export const Span = styled.span`
@@ -40,13 +43,11 @@ export const Left = styled.div`
   justify-content: space-around;
   align-items: center;
   width: 15%;
-  //border: 1px solid red;
 `;
 
 export const Arrows = styled.div`
   display: flex;
   flex-direction: column;
-  //border: 1px solid red;
   height: 4rem;
   justify-content: space-between;
   font-size: 30pt;
