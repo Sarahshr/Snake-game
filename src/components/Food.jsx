@@ -16,9 +16,3 @@ const Food = ({ food }) => {
   return <FoodStyled top={`${food[1]}%`} left={`${food[0]}%`} />;
 };
 export default Food;
-
-/*
-https://github.com/taming-the-state-in-react/react-snake/blob/master/src/App.js
-https://github.com/ChigabigaChannel/react-hour-projects/blob/master/snake-game/src/App.js
-https://fr.reactjs.org/docs/hooks-effect.html
-*/
